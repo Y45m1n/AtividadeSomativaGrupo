@@ -81,10 +81,28 @@ public class AtividadeSomativa {
             System.out.println("Abaixo do Peso - Musculação Intensa e Luta");
         } else if (situacao==5 && idade==3) {
             System.out.println("Peso Ideal - Musculação Moderada Dança e Corrida");
-       // } else if (situacao==6 && idade==3) {
-         //   System.out.println("Acima do Peso - Ioga");
-        //} else if (situacao==4 && idade==4) {
-          //  System.out.println("Abaixo do Peso - Musculação Intensa e Luta");
+        } else if (situacao==6 && idade==3) {
+           System.out.println("Acima do Peso - Ioga");
+        } else if (situacao==4 && idade==4) {
+           System.out.println("Abaixo do Peso - Pilates e Luta");
+        } else if (situacao==5 && idade==4) {
+            System.out.println("Peso Ideal - Musculação Moderada, Dança e Corrida");
+        } else if (situacao==6 && idade==4) {
+            System.out.println("Acima do Peso - Luta e Pilates");
+        } else if (situacao==4 && idade==5) {
+           System.out.println("Abaixo do Peso - Pilates");
+        } else if (situacao==5 && idade==5) {
+            System.out.println("Peso Ideal - Dança e Corrida");
+        } else if (situacao==6 && idade==5) {
+            System.out.println("Acima do Peso - Musculação Leve e Ioga");
+        } else if (situacao==4 && idade==6) {
+           System.out.println("Abaixo do Peso - Pilates");
+        } else if (situacao==5 && idade==6) {
+            System.out.println("Peso Ideal - Dança");
+        } else if (situacao==6 && idade==6) {
+            System.out.println("Acima do Peso - Musculação Leve e Ioga");
+        } else {
+            System.out.println(" O valor digitado é inválido ");
         }
         
         
